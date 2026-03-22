@@ -1,0 +1,26 @@
+package constants
+
+const (
+	ErrInvalidRequest     = "invalid request payload"
+	ErrInvalidCoachID     = "coach_id must be a positive integer"
+	ErrInvalidUserID      = "user_id must be a positive integer"
+	ErrInvalidDate        = "date must be in YYYY-MM-DD format"
+	ErrDateInPast         = "date cannot be in the past"
+	ErrInvalidTimezone    = "invalid timezone provided"
+	ErrInvalidTimeRange   = "start_time must be before end_time"
+	ErrInvalidDayOfWeek   = "day_of_week must be between 0 (Sunday) and 6 (Saturday)"
+	ErrSlotAlreadyBooked  = "this time slot is already booked"
+	ErrBookingNotFound    = "booking not found"
+	ErrBookingNotOwned    = "booking does not belong to this user"
+	ErrAlreadyCancelled   = "booking is already cancelled"
+	ErrSlotNotAligned     = "booking time must align to 30-minute boundaries (:00 or :30)"
+	ErrSlotInPast         = "cannot book a slot in the past"
+	ErrSlotOutsideAvail   = "booking time is outside coach's availability for that day"
+	ErrCoachNotFound      = "coach not found"
+	ErrInternalServer     = "internal server error"
+	ErrOverlappingAvail   = "availability overlaps with an existing window"
+	ErrMissingCoachID     = "coach_id query parameter is required"
+	ErrMissingDate        = "date query parameter is required"
+	ErrMissingUserID      = "user_id query parameter is required"
+	ErrInvalidBookingID   = "booking id must be a positive integer"
+)
