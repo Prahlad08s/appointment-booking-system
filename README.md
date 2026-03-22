@@ -450,3 +450,9 @@ go test ./tests/... -v -race
 go test ./... -coverprofile=coverage.out
 go tool cover -html=coverage.out
 ```
+
+---
+
+## AI Usage Disclosure
+
+AI tools (Cursor IDE with Claude) were used during development. See [`AI_USAGE.md`](./AI_USAGE.md) for full details on scope, conversation logs, and which parts were AI-assisted.
