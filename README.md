@@ -455,4 +455,4 @@ go tool cover -html=coverage.out
 
 ## AI Usage Disclosure
 
-AI tools (Cursor IDE with Claude) were used during development. See [`AI_USAGE.md`](./AI_USAGE.md) for full details on scope, conversation logs, and which parts were AI-assisted.
+AI tools (Cursor IDE with Claude) were used during development. 
